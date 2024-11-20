@@ -1,5 +1,8 @@
-print('Hello World!')
+from fastapi import FastAPI
 
+app = FastAPI()
 
+@app.get('/damir')
+def index():
+    return {'Answer': 'dalbaeb'}
 
-print(1111)
