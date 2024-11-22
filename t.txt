@@ -1,0 +1,1 @@
+/Users/damirrasidov/Desktop/Git/.venv/bin/python -m uvicorn main:app --reload
